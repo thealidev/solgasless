@@ -10,7 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@auth0/auth0-react": "^1.10.2",
+    "@auth0/auth0-react": "^2.2.4",
     "@gokiprotocol/client": "^0.11.1",
     "@heroicons/react": "^1.0.5",
     "@metaplex-foundation/js": "^0.15.0",
