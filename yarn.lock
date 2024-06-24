@@ -1099,9 +1099,10 @@
   dependencies:
     buffer "~6.0.3"
 
-"@solana/octane-core@https://gitpkg.now.sh/solana-labs/octane/packages/core?630a8d6afc90d2fe5aad88db2dc56c880cdbb5ad&scripts.postinstall=yarn%20install%20--ignore-scripts%20%26%26%20yarn%20run%20build":
+"@solana/octane-core@https://gitpkg.now.sh/anza-xyz/octane/packages/core?630a8d6afc90d2fe5aad88db2dc56c880cdbb5ad&scripts.postinstall=yarn%20install%20--ignore-scripts%20%26%26%20yarn%20run%20build":
   version "0.0.1"
-  resolved "https://gitpkg.now.sh/solana-labs/octane/packages/core?630a8d6afc90d2fe5aad88db2dc56c880cdbb5ad&scripts.postinstall=yarn%20install%20--ignore-scripts%20%26%26%20yarn%20run%20build#f417c8d662cd32f50b2c1933f0e80c944ff20f12"
+  uid b3adc38d68db9464b3701b62064191cc722c6294
+  resolved "https://gitpkg.now.sh/anza-xyz/octane/packages/core?630a8d6afc90d2fe5aad88db2dc56c880cdbb5ad&scripts.postinstall=yarn%20install%20--ignore-scripts%20%26%26%20yarn%20run%20build#b3adc38d68db9464b3701b62064191cc722c6294"
   dependencies:
     "@orca-so/whirlpools-sdk" "^0.5.0"
     "@project-serum/anchor" "^0.25.0"
@@ -1602,10 +1603,12 @@
   resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.178.tgz#341f6d2247db528d4a13ddbb374bcdc80406f4f8"
   integrity sha512-0d5Wd09ItQWH1qFbEyQ7oTQ3GZrMfth5JkbN3EvTKLXcHLRDSXeLnlvlOn0wvxVIwK5o2M8JzP/OWz7T3NRsbw==
 
-"@types/node@*", "@types/node@17.0.10":
-  version "17.0.10"
-  resolved "https://registry.npmjs.org/@types/node/-/node-17.0.10.tgz"
-  integrity sha512-S/3xB4KzyFxYGCppyDt68yzBU9ysL88lSdIah4D6cptdcltc4NCPCAMc0+PCpg/lLIyC7IPvj2Z52OJWeIUkog==
+"@types/node@*", "@types/node@20.14.8":
+  version "20.14.8"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.14.8.tgz#45c26a2a5de26c3534a9504530ddb3b27ce031ac"
+  integrity sha512-DO+2/jZinXfROG7j7WKFn/3C6nFwxy2lLpgLjEXJz+0XKphZlTLJ14mo8Vfg8X5BWN6XjyESXq+LcYdT7tR3bA==
+  dependencies:
+    undici-types "~5.26.4"
 
 "@types/node@11.11.6":
   version "11.11.6"
@@ -5939,6 +5942,11 @@ unbox-primitive@^1.0.2:
     has-bigints "^1.0.2"
     has-symbols "^1.0.3"
     which-boxed-primitive "^1.0.2"
+
+undici-types@~5.26.4:
+  version "5.26.5"
+  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-5.26.5.tgz#bcd539893d00b56e964fd2657a4866b221a65617"
+  integrity sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==
 
 unload@^2.3.1:
   version "2.3.1"
